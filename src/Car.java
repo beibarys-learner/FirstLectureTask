@@ -1,8 +1,8 @@
 public class Car {
 
-    String name;
-    String model;
-    String color;
+    private String name;
+    private String model;
+    private String color;
 
     void drive(){
         String hello = "hello";
