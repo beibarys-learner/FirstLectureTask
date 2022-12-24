@@ -31,9 +31,9 @@ public class Transport {
 
     void drive(){
         String hello = "hello";
-        System.out.println("driven by " + name);
+        System.out.println("driven by " + name + "called from transport");
     }
     void stop(){
-        System.out.println("stopped by " + name);
+        System.out.println("stopped by " + name + "called from transport");
     }
 }

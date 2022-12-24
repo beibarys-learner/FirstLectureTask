@@ -20,4 +20,10 @@ public class Car extends Transport{
         System.out.println("car drive");;
     }
     // we don't follow parent's method drive, instead we are using own drive methods
+
+
+    @Override
+    void stop() {
+        System.out.println("car stop");
+    }
 }
