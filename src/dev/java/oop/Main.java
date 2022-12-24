@@ -12,7 +12,5 @@ public class Main {
 
         Ural ural = new Ural("Kawasaki", "Saki", "BLACK", 1.0, true);
         ural.showInfo();
-
-
     }
 }

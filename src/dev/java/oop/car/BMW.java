@@ -9,8 +9,8 @@ public class BMW extends Car{
         super(name, model, color);
     }
 
-    @Override
-    public void drive() {
-        System.out.println("bmw drive");;
-    }
+//    @Override
+//    public void drive() {
+//        System.out.println("bmw drive");;
+//    }
 }

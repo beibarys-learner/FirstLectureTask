@@ -40,9 +40,9 @@ public abstract class Car extends Transport {
 //        // доработанный функционал для метода drive
 //        System.out.println("drive car");
 //    }
-
-    @Override
-    public void stop() {
-        System.out.println("stop car");
-    }
+//
+//    @Override
+//    public void stop() {
+//        System.out.println("stop car");
+//    }
 }
