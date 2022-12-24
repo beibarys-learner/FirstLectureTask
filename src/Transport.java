@@ -1,6 +1,16 @@
 // which is same for all transport
 // add name fields and drive, stop methods
 public class Transport {
+    // let's create a constructor for Transport class
+    public Transport() {
+    }
+
+    public Transport(String name, String model, String color) {
+        this.name = name;
+        this.model = model;
+        this.color = color;
+    }
+
     private String name;
     private String model;
     private String color;
