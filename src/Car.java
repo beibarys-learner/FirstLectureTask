@@ -1,4 +1,13 @@
 public class Car extends Transport{
+    // created constructor in car using none in Transport
+    public Car(String name, String model, String color) {
+        super(name, model, color); //put values to parent class
+    }
+
+    public Car(String name, String model, String color, int number) {
+        super(name, model, color);
+        this.number = number;
+    }
 
     private int number;
 
