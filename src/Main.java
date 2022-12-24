@@ -4,7 +4,7 @@ public class Main {
         Car car = new Car();
         car.setName("car");
         car.drive();
-        car.setNumber(2543);
-        System.out.println("car.getNumber() = " + car.getNumber());
+        car.stop();
+        // here using stop method of transport (parent) class, and drive method of car class (child)
     }
 }
