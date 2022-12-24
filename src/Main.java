@@ -9,8 +9,13 @@ public class Main {
         //        nissan.setName("teana");
         //        nissan.setModel("sedan");
         //        nissan.setColor("black");
+        nissan.setNum1(5);
+        nissan.setNum2(210);
+        // since we added getter and set for num1 and num2
 
         nissan.drive();
+        int result = nissan.sumNumbers();
+        System.out.println("result = " + result);
 
         // we print message by getting Name
         System.out.println("nissan's name will be " + nissan.getName() + " printed using getName");
