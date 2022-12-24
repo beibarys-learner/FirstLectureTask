@@ -1,7 +1,9 @@
+package dev.java.oop;
+
 // which is same for all transport
 // add name fields and drive, stop methods
 public class Transport {
-    // let's create a constructor for Transport class
+    // let's create a constructor for dev.java.oop.Transport class
     public Transport() {
     }
 

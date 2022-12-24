@@ -1,5 +1,7 @@
+package dev.java.oop;
+
 public class Car extends Transport{
-    // created constructor in car using none in Transport
+    // created constructor in car using none in dev.java.oop.Transport
     public Car(String name, String model, String color) {
         super(name, model, color); //put values to parent class
     }
@@ -29,7 +31,7 @@ public class Car extends Transport{
     void drive() {
         // here we are calling transport's drive and stop methods
         super.drive();
-        // if you use drive(); you will call drive method inside Car, not Transport
+        // if you use drive(); you will call drive method inside dev.java.oop.Car, not dev.java.oop.Transport
         super.stop();
         System.out.println("car drive");;
     }
