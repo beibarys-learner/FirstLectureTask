@@ -11,6 +11,9 @@ public class Car extends Transport{
         this.number = number;
     }
 
+    public Car() {
+    }
+
     private int number;
 
     public int getNumber() {
@@ -29,11 +32,7 @@ public class Car extends Transport{
 
     @Override
     void drive() {
-        // here we are calling transport's drive and stop methods
-        super.drive();
-        // if you use drive(); you will call drive method inside dev.java.oop.Car, not dev.java.oop.Transport
-        super.stop();
-        System.out.println("car drive");;
+        System.out.println("car drive");
     }
     // we don't follow parent's method drive, instead we are using own drive methods
 
