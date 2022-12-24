@@ -1,7 +1,8 @@
-package dev.java.oop;
+package dev.java.oop.car;
 
 public class BMW extends Car{
     public BMW() {
+        System.out.println("bmw");
     }
 
     public BMW(String name, String model, String color) {
@@ -10,8 +11,6 @@ public class BMW extends Car{
 
     @Override
     public void drive() {
-        super.signal(); // recalled from car
-        super.drive();
         System.out.println("bmw drive");;
     }
 }

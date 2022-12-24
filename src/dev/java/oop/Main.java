@@ -1,18 +1,18 @@
 package dev.java.oop;
 
+import dev.java.oop.car.BMW;
+import dev.java.oop.car.Toyota;
+import dev.java.oop.motorbike.Kawasaki;
+import dev.java.oop.motorbike.Ural;
+
 public class Main {
     public static void main(String[] args) {
-        BMW bmw = new BMW();
-        bmw.drive(); //bmw drive will be printed, since recent drive's Override will be used
+        Kawasaki kawasaki = new Kawasaki("Kawasaki", "Saki", "BLACK", 1.0, 2022);
+        kawasaki.jump();
 
-        Toyota toyota = new Toyota();
-        toyota.drive();
-//        Car car = new Car("hyindai", "accent", "black", 213);
-//        System.out.println("car.getName() = " + car.getName());
-//        System.out.println("car.getModel() = " + car.getModel());
-//        System.out.println("car.getColor() = " + car.getColor());
-//        System.out.println("car.getNumber() = " + car.getNumber());
-//
+        Ural ural = new Ural("Kawasaki", "Saki", "BLACK", 1.0, true);
+        ural.showInfo();
+
 
     }
 }
