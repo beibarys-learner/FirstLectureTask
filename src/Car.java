@@ -1,4 +1,4 @@
-public class Car {
+public class Car extends Transport{
     public Car() {
     }
 
@@ -8,7 +8,6 @@ public class Car {
         this.color = color;
     }
 
-    private String name;
     private String model;
     private String color;
     private int num1;
@@ -65,12 +64,6 @@ public class Car {
         this.color = color;
     }
 
-    void drive(){
-        String hello = "hello";
-        System.out.println("driven by " + name);
-    }
-    void stop(){
-        System.out.println("stopped by " + name);
-    }
+
 
 }
