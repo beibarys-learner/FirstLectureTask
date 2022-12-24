@@ -14,8 +14,8 @@ public class Main {
         // since we added getter and set for num1 and num2
 
         nissan.drive();
-        int result = nissan.sumNumbers(1, 2);
-        System.out.println("result = " + result);
+
+        nissan.sumNumbers(1, 2);
 
         // we print message by getting Name
         System.out.println("nissan's name will be " + nissan.getName() + " printed using getName");

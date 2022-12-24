@@ -30,13 +30,13 @@ public class Car {
         this.num2 = num2;
     }
 
-    public int sumNumbers(int d1, int d2){
-        // return num1 + num2; // we added new int fields and method
+    public void sumNumbers(int d1, int d2){
+//        Метод с типом void не возвращает никакой результат, а просто выполняет какой-то внутренний код.
         if(d1 > 0) {
-            return d1;
+            return;
         }
         else {
-            return d1 + d2;
+            System.out.println("d1 + d2 = " + d1 + d2);;
         }
     }
 
