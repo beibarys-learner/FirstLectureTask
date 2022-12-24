@@ -30,8 +30,14 @@ public class Car {
         this.num2 = num2;
     }
 
-    public int sumNumbers(){
-        return num1 + num2; // we added new int fields and method
+    public int sumNumbers(int d1, int d2){
+        // return num1 + num2; // we added new int fields and method
+        if(d1 > 0) {
+            return d1;
+        }
+        else {
+            return d1 + d2;
+        }
     }
 
 
@@ -66,4 +72,5 @@ public class Car {
     void stop(){
         System.out.println("stopped by " + name);
     }
+
 }
