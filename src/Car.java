@@ -8,8 +8,6 @@ public class Car extends Transport{
         this.color = color;
     }
 
-    private String model;
-    private String color;
     private int num1;
     private int num2;
 
