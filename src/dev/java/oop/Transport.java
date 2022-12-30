@@ -58,4 +58,10 @@ public abstract class Transport {
     public void stop(){
         System.out.println("stop transport");
     };
+    public static String formatText(String text){
+        // you can only call static vars or methods
+        return text + "!!!!";
+
+    }
+
 }
