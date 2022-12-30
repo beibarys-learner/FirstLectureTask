@@ -12,9 +12,9 @@ public class Main {
         Engine engine = new Engine(10);
 //        engine.setVolume(10);
 
-        Car car = new Car(10, engine);
+        Car car = new Car();
 //        car.setEngine(engine);
-        System.out.println("car.getEngine() = " + car.getEngine());
+        System.out.println("car.getEngine() = " + car.getEngine().getVolume());
 
 //        Kawasaki kawasaki = new Kawasaki("Kawasaki", "Saki", "BLACK", 1.0, 2022);
 //        kawasaki.jump();
