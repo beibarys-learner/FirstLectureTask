@@ -8,10 +8,8 @@ import dev.java.oop.motorbike.Ural;
 
 public class Main {
     public static void main(String[] args) {
-
-        Car car = new Car(new Engine(10));
-        System.out.println("car = " + car.wheelCount);
-        Ural ural = new Ural();
-        System.out.println("ural.wheelCount = " + ural.wheelCount);
+        //rebuilt methods
+        Toyota toyota = new Toyota();
+        System.out.println("toyota.year = " + toyota.year);
     }
 }

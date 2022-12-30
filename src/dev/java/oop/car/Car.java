@@ -13,6 +13,7 @@ public class Car extends Transport {
         super(name, model, color);
         this.number = number;
     }
+
     public Car(int number, Engine engine) {
         this.number = number;
         this.engine = engine; // added new Engine
@@ -21,13 +22,17 @@ public class Car extends Transport {
     public Car() {
     }
 
+    public Car(Engine engine) {
+        this.engine = engine;
+    }
+
     private int number; // для всех авто нужно будет иметь номер
     private Engine engine;
     public final int wheelCount = 4; // car has 4 wheels
 
-    public Car(Engine engine) {
+    public Engine getEngine() {
+        return engine;
     }
-
 
     public void setEngine(Engine engine) {
         this.engine = engine;
@@ -42,18 +47,18 @@ public class Car extends Transport {
     }
 
     // уникальный метод только для Car и всех его дочерних классов
-    public void signal(){
+    public void signal() {
         System.out.println("signal");
     }
 
-//    @Override
-//    public void drive() {
-//        // доработанный функционал для метода drive
-//        System.out.println("drive car");
-//    }
+    @Override
+    public void drive() {
+        // доработанный функционал для метода drive
+        System.out.println("drive car with wheelCount" + wheelCount);
+    }
 //
-//    @Override
-//    public void stop() {
-//        System.out.println("stop car");
-//    }
+    @Override
+    public void stop() {
+        System.out.println("stop car");
+    }
 }
