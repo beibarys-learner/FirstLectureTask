@@ -4,6 +4,8 @@ import dev.java.oop.Transport;
 
 public class Motorbike extends Transport {
     private double Volume;
+    public final int wheelCount = 2; // car has 4 wheels
+
 
     public Motorbike() {
     }

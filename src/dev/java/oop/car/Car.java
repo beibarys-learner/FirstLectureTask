@@ -19,17 +19,15 @@ public class Car extends Transport {
     }
 
     public Car() {
-        System.out.println("car");
     }
-
-
 
     private int number; // для всех авто нужно будет иметь номер
     private Engine engine;
+    public final int wheelCount = 4; // car has 4 wheels
 
-    public Engine getEngine() {
-        return engine;
+    public Car(Engine engine) {
     }
+
 
     public void setEngine(Engine engine) {
         this.engine = engine;
