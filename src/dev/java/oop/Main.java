@@ -12,9 +12,14 @@ public class Main {
         Toyota toyota = new Toyota();
         toyota.year = 2000;
         System.out.println("toyota.year = " + toyota.year);
-        
+
         BMW bmw = new BMW();
+        bmw.year = 2002;
         System.out.println("bmw.year = " + bmw.year);
+
+        Toyota toyota2 = new Toyota();
+        toyota2.year = 2022;
+        System.out.println("toyota2.year = " + toyota2.year);
 
         //here we define static variable 2000, and it belongs to Transport class and its child classes
 
