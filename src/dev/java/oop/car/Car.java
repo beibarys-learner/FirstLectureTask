@@ -13,8 +13,9 @@ public class Car extends Transport {
         super(name, model, color);
         this.number = number;
     }
-    public Car(int number) {
+    public Car(int number, Engine engine) {
         this.number = number;
+        this.engine = engine; // added new Engine
     }
 
     public Car() {

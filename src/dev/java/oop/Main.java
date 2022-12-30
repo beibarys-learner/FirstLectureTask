@@ -12,7 +12,7 @@ public class Main {
         Engine engine = new Engine(10);
 //        engine.setVolume(10);
 
-        Car car = new Car();
+        Car car = new Car(10, engine);
 //        car.setEngine(engine);
         System.out.println("car.getEngine() = " + car.getEngine());
 
