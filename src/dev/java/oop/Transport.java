@@ -16,7 +16,7 @@ public abstract class Transport {
     private String name;
     private String model;
     private String color;
-    public static int year; // added static variable
+    public static final int year = 2000; // added static variable
     // static variables same value for all transport and its parent classes
 
     public String getName() {
