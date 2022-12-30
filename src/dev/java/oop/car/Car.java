@@ -1,8 +1,9 @@
 package dev.java.oop.car;
 
+import dev.java.oop.Engine;
 import dev.java.oop.Transport;
 
-public abstract class Car extends Transport {
+public class Car extends Transport {
     // created constructor in car using none in dev.java.oop.Transport
     public Car(String name, String model, String color) {
         super(name, model, color); //put values to parent class
@@ -20,7 +21,18 @@ public abstract class Car extends Transport {
         System.out.println("car");
     }
 
+
+
     private int number; // для всех авто нужно будет иметь номер
+    private Engine engine;
+
+    public Engine getEngine() {
+        return engine;
+    }
+
+    public void setEngine(Engine engine) {
+        this.engine = engine;
+    }
 
     public int getNumber() {
         return number;
